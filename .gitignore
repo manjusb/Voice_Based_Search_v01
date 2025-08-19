@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets (never commit)
+*.json
+!sample-*.json
+*.key
+*.pem
+*.p12
+
+# Build artifacts
+build/
+build_*/*
+build_final/
+dist/
+dist_*/*
+dist_final/
+*.spec
+
+# Logs
+*.log
+interaction_log.txt
+
+# Audio outputs
+*.mp3
+*.wav
+
+# IDE
+.vscode/
+.idea/
+
+# Local tool metadata
+.qodo/
